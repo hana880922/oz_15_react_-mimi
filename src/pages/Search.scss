@@ -1,0 +1,24 @@
+.search-container {
+  width: 100%;
+  padding: 40px;
+}
+
+.search-title {
+  text-align: left;
+  margin-bottom: 24px;
+  padding-left: 32px;
+}
+
+.no-result {
+  text-align: center;
+  opacity: 0.8;
+}
+
+.search-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 25px;
+  padding: 0 32px;
+  justify-content: start;
+}
